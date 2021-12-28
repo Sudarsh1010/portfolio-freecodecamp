@@ -61,6 +61,7 @@ nav {
 
 .nav-list {
     display: flex;
+    margin-right: 50px;
 }
 
 nav ul li { list-style: none; }
@@ -71,7 +72,7 @@ nav ul li a {
     color: white;
     display: block;
     transition: weight 0.5 s ease;
-    padding: 1.8rem;
+    padding: 1.2rem;
 }
 
 nav ul li a:hover {
@@ -121,6 +122,14 @@ nav ul li a:hover {
     text-align: center;
 }
 
+hr {
+    border: 1px solid #be3144;
+    color: #be3144;
+    margin: 20px auto 0;
+    width: 70%;
+    
+}
+
 .project-grid {
     display: flex;
     margin: 0 auto;
@@ -144,6 +153,44 @@ nav ul li a:hover {
 .grid img {
     align-items: center;
     display: block;
-  margin-left: auto;
-  margin-right: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
+
+/* Start of Contact section */
+
+#contact-section {
+    background-color: grey;
+    align-items: center;
+    width: 100%;
+}
+
+#contact-section-header {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    padding: 50px;
+    line-height: 40px;
+}
+
+#contact-links {
+    display: flex;
+    width: 70%;
+    max-width: 1280px;
+    margin: 0 auto;
+    justify-content: space-around;
+    padding-bottom: 50px;
+}
+
+#contact-links a {
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+#contact-links a:hover {
+    font-weight: bold;
+    background-color: black;
+    color: grey;
+    padding: 15px 20px;
+    border-radius: 30px;
+}
+/* End of Contact section */
